@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 #2.veri önişleme
 #2.1.veri yükleme
 
-veriler = pd.read_csv(r'C:\Users\yaren\Desktop\DevrimUnayMakaleleri\MakineÖğrenmesi\Bölüm1\veriler.csv')
+veriler = pd.read_csv(r'C:\Users\yaren\Desktop\yg\MakineÖğrenmesi\Bölüm1\veriler.csv')
 
 boy = veriler[["boy"]]
 
@@ -20,7 +20,7 @@ boykilo = veriler[["boy","kilo"]]
 
 
 #eksik veriler
-eksikveriler = pd.read_csv(r'C:\Users\yaren\Desktop\DevrimUnayMakaleleri\MakineÖğrenmesi\Bölüm2\eksikveriler.csv')
+eksikveriler = pd.read_csv(r'C:\Users\yaren\Desktop\yg\MakineÖğrenmesi\Bölüm2\eksikveriler.csv')
 #sci - kit learn
 from sklearn.impute import SimpleImputer
 
